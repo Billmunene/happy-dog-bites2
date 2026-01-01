@@ -1,2 +1,2 @@
-# happy-dog-bites2
+# happy-dog-bites
 

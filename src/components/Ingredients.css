@@ -1,0 +1,44 @@
+.ingredients-section {
+    padding: 100px 0;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.ingredients-container {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.ingredients-content {
+    flex: 1;
+}
+
+.ingredients-image-container {
+    flex: 1;
+    height: 500px;
+    position: relative;
+}
+
+.ingredients-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    /* background-image set in JSX */
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.ingredients-title {
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+    color: var(--color-text-dark);
+    line-height: 1.2;
+}
+
+.ingredients-description {
+    font-size: 1rem;
+    color: var(--color-text-light);
+    line-height: 1.6;
+}

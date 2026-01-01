@@ -1,0 +1,24 @@
+.health-benefits-section {
+    padding: 100px 0;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.health-benefits-container {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.health-benefits-title {
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+    color: var(--color-text-dark);
+    line-height: 1.2;
+}
+
+.health-benefits-description {
+    font-size: 1rem;
+    color: var(--color-text-light);
+    line-height: 1.6;
+}
