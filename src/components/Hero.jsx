@@ -178,26 +178,32 @@ const styles = {
     justifyContent: "center",
   },
 
-  circle: {
-    position: "relative",
-    width: 370,
-    height: 370,
-    borderRadius: "50%",
-    overflow: "hidden",
-    display: "flex",
-    boxShadow: "0 12px 32px rgba(0,0,0,0.08)",
-  },
+ circle: {
+  position: "relative",
+  width: 370,
+  height: 370,
+  borderRadius: "50%",
+  overflow: "hidden",
+  display: "flex",
+  boxShadow: "0 12px 32px rgba(0,0,0,0.08)",
+},
 
-  leftImage: {
-    width: "50%",
-    objectFit: "cover",
-  },
+leftImage: {
+  width: "100%",           // double width so only left half fits
+  height: "100%",
+  objectFit: "cover",
+  clipPath: "inset(0 50% 0 0)", // show only left half
+},
 
-  rightImage: {
-    width: "50%",
-    objectFit: "cover",
-    transform: "rotate(180deg)", // ✅ FIX
-  },
+rightImage: {
+  width: "100%",           // double width so only right half fits
+  height: "100%",
+  objectFit: "cover",
+  clipPath: "inset(0 0 0 50%)", // show only right half
+  position: "absolute",     // overlay perfectly
+  top: 0,
+  left: 0,
+},
 
   divider: {
     position: "absolute",
