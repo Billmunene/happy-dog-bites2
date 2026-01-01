@@ -2,7 +2,7 @@ import leftFood from "../assets/Rectangle 40557.png";
 import rightFood from "../assets/Rectangle 40556.png";
 
 // placeholder icons
-import realFoodIcon from "../assets/realfood.png";
+import realFoodIcon from "../assets/realFood.png";
 import premiumIcon from "../assets/premium.png";
 import freshIcon from "../assets/fresh.png";
 import vetIcon from "../assets/vet.png";
